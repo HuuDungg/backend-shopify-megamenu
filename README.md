@@ -1,0 +1,1 @@
+thay api key, shop link, theme id và value tương ứng để test
