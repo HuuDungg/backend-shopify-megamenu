@@ -71,6 +71,38 @@
 			"response": []
 		},
 		{
+			"name": "get current footer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"access_token\": \"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\",\n  \"shop_link\": \"https://quickstart-efbc825a.myshopify.com\",\n  \"theme_id\": \"143473541342\",\n  \"asset_key\": \"sections/footer.liquid\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/get-current-footer",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"get-current-footer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "add footer",
 			"request": {
 				"method": "POST",

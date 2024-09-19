@@ -127,6 +127,33 @@ def update_footer():
     # Trả về kết quả của yêu cầu
     return jsonify(response.json()), response.status_code
 
+@app.route('/api/get-current-footer', methods=['POST'])
+def get_getfooter():
+    # Lấy dữ liệu JSON từ body của yêu cầu
+    data = request.get_json()
+    access_token = data.get('access_token')
+    shop_link = data.get('shop_link')
+    theme_id = data.get('theme_id')
+    asset_key = data.get('asset_key')
+
+    # Kiểm tra dữ liệu đầu vào
+    if not access_token or not shop_link or not theme_id or not asset_key:
+        return jsonify({"error": "Missing required parameters"}), 400
+
+    # Tạo URL cho API Shopify
+    url = f"{shop_link}/admin/api/2024-07/themes/{theme_id}/assets.json?asset%5Bkey%5D={asset_key}"
+
+    # Tạo tiêu đề cho yêu cầu
+    headers = {
+        "X-Shopify-Access-Token": access_token
+    }
+
+    # Gửi yêu cầu GET đến Shopify API
+    response = requests.get(url, headers=headers)
+
+    # Trả về kết quả của yêu cầu
+    return jsonify(response.json()), response.status_code
+
 # Chạy ứng dụng
 if __name__ == '__main__':
     app.run(debug=True)
