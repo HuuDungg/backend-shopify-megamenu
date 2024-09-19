@@ -1,0 +1,31 @@
+#get script tag by id:
+curl -X GET "https://quickstart-efbc825a.myshopify.com/admin/api/2024-07/script_tags/596726825.json" \
+-H "X-Shopify-Access-Token: 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"
+
+#get all script tag:
+curl -X GET "https://quickstart-efbc825a.myshopify.com/admin/api/2024-07/script_tags.json" \
+-H "X-Shopify-Access-Token: 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"
+
+#get count script tag:
+curl -X GET "https://quickstart-efbc825a.myshopify.com/admin/api/2024-07/script_tags/count.json" \
+-H "X-Shopify-Access-Token: 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"
+
+#create new script tag:
+curl -d '{"script_tag":{"event":"onload","src":"https://example.com/my_script.js"}}' \
+-X POST "https://quickstart-efbc825a.myshopify.com/admin/api/2024-07/script_tags.json" \
+-H "X-Shopify-Access-Token: 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" \
+-H "Content-Type: application/json"
+
+#delete script tag by id:
+curl -X DELETE "https://quickstart-efbc825a.myshopify.com/admin/api/2024-07/script_tags/228635934942.json" \
+-H "X-Shopify-Access-Token: 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"
+
+#update scriptag by id:
+curl -d '{"script_tag":{"id":596726825,"src":"https://somewhere-else.com/another.js"}}' \
+-X PUT "https://quickstart-efbc825a.myshopify.com/admin/api/2024-07/script_tags/596726825.json" \
+-H "X-Shopify-Access-Token: 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" \
+-H "Content-Type: application/json"
+
+#delete asset by id:
+curl -X DELETE "https://quickstart-efbc825a.myshopify.com/admin/api/2024-07/themes/828155753/assets.json?asset%5Bkey%5D=assets%2Fbg-body.gif" \
+-H "X-Shopify-Access-Token: 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"
