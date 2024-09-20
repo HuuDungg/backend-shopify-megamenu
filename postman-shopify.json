@@ -7,164 +7,366 @@
 	},
 	"item": [
 		{
-			"name": "add new menu",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n  \"access_token\": \"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\",\n  \"shop_link\": \"https://quickstart-efbc825a.myshopify.com\",\n  \"theme_id\": \"143473541342\",\n  \"value\": \"<nav> <ul class='horizontal-menu' id='menu-main'><li><a id='c9a31b45-4863-4fd3-a837-baf08c5b80f5' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='9239bdf1-ccf0-49c4-9c9d-bcaf30f77f89' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li><li><a id='fe95224c-0f44-482e-98a7-b68e243089fc' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='18bba4c6-e49a-4134-9150-bc1d0784f73c' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li><li><a id='ba0990ea-14d9-4ba1-a52d-2fda6b95651f' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='34ced7c6-61b9-49cd-bb16-31f971ef5e5a' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li><li><a id='3a1a8df2-1d89-4709-85fa-04c6eac12336' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='87c168d5-d30c-45cf-a208-955ef482805b' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li><li><a id='b6c4f39b-39bb-4e96-a49e-d4978410d077' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='f65c060c-2328-43b8-b7db-b45b9c26ecf9' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li><li><a id='d3387837-581c-4e72-902f-e9bf818d7e22' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='6cdff325-616c-45e0-aa4a-abe32ae583ec' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style>\"\n}\n",
-					"options": {
-						"raw": {
-							"language": "json"
+			"name": "asset",
+			"item": [
+				{
+					"name": "put menu",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"access_token\": \"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\",\n  \"shop_link\": \"https://quickstart-efbc825a.myshopify.com\",\n  \"theme_id\": \"143277555934\",\n  \"value\": \"<nav> <ul class='horizontal-menu' id='menu-main'><li><a id='c9a31b45-4863-4fd3-a837-baf08c5b80f5' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='9239bdf1-ccf0-49c4-9c9d-bcaf30f77f89' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li><li><a id='fe95224c-0f44-482e-98a7-b68e243089fc' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='18bba4c6-e49a-4134-9150-bc1d0784f73c' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li><li><a id='ba0990ea-14d9-4ba1-a52d-2fda6b95651f' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='34ced7c6-61b9-49cd-bb16-31f971ef5e5a' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li><li><a id='3a1a8df2-1d89-4709-85fa-04c6eac12336' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='87c168d5-d30c-45cf-a208-955ef482805b' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li><li><a id='b6c4f39b-39bb-4e96-a49e-d4978410d077' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='f65c060c-2328-43b8-b7db-b45b9c26ecf9' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li><li><a id='d3387837-581c-4e72-902f-e9bf818d7e22' class='home' style='menu-item' href='/home' level='1'> Home </a><div class='custom-line'></div><ul class='submenu'><nav> <ul class='horizontal-menu' id='menu-main'><li><a id='6cdff325-616c-45e0-aa4a-abe32ae583ec' class='home' style='menu-item' href='https://onextdigital.com/' level='1'> Home </a><div class='custom-line'></div></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style></ul></li></ul></nav><style>.menu-container{width:100%;position:relative;}.horizontal-menu{list-style:none;padding:0;margin:0;display:flex;background-color:#333;}.horizontal-menu>li{position:relative;}.horizontal-menu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;background-color:#333;}.horizontal-menu>li>a:hover{background-color:#555;}.submenu{list-style:none;padding:0;margin:0;position:absolute;top:100%;left:0;width:100%;display:none;background-color:#333;z-index:1000;}.submenu>li>a{display:block;padding:10px 15px;color:white;text-decoration:none;}.submenu>li>a:hover{background-color:#555;}.horizontal-menu>li:hover>.submenu{display:block;}.nav-menu{display:flex;justify-content:center;align-items:center;padding:0;margin:0;background-color:#333;}.nav-menu>.horizontal-menu>li{margin:0 20px;}</style>\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/menu",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"menu"
+							]
 						}
-					}
+					},
+					"response": []
 				},
-				"url": {
-					"raw": "http://127.0.0.1:5000/api/menu",
-					"protocol": "http",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"menu"
-					]
+				{
+					"name": "get current menu",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"access_token\": \"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\",\n  \"shop_link\": \"https://quickstart-efbc825a.myshopify.com\",\n  \"theme_id\": \"143473475806\",\n  \"asset_key\": \"sections/header.liquid\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/get-current-menu",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"get-current-menu"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get current footer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"access_token\": \"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\",\n  \"shop_link\": \"https://quickstart-efbc825a.myshopify.com\",\n  \"theme_id\": \"143473541342\",\n  \"asset_key\": \"sections/footer.liquid\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/get-current-footer",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"get-current-footer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putt footer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"access_token\": \"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\",\n  \"shop_link\": \"https://quickstart-efbc825a.myshopify.com\",\n  \"theme_id\": \"143277555934\",\n  \"value\": \"<footer><p>Author: Huu Dung<br><a href='mailto:huudung2004kt@gmail.com'>huudung2004kt@gmail.com</a></p></footer><style>footer{text-align:center;padding:3px;background-color:gray;color:white;}</style>\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/footer",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"footer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all theme",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"access_token\": \"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\",\n  \"shop_link\": \"https://quickstart-efbc825a.myshopify.com\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/get-themes",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"get-themes"
+							]
+						}
+					},
+					"response": []
 				}
-			},
-			"response": []
+			]
 		},
 		{
-			"name": "get current menu",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n  \"access_token\": \"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\",\n  \"shop_link\": \"https://quickstart-efbc825a.myshopify.com\",\n  \"theme_id\": \"143473541342\",\n  \"asset_key\": \"sections/header.liquid\"\n}\n",
-					"options": {
-						"raw": {
-							"language": "json"
+			"name": "script tag",
+			"item": [
+				{
+					"name": "get all script",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"shop_link\": \"quickstart-efbc825a.myshopify.com\",\n  \"access_token\": \"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\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/get_script_tags",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"get_script_tags"
+							]
 						}
-					}
+					},
+					"response": []
 				},
-				"url": {
-					"raw": "http://127.0.0.1:5000/api/get-current-menu",
-					"protocol": "http",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"get-current-menu"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "get current footer",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n  \"access_token\": \"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\",\n  \"shop_link\": \"https://quickstart-efbc825a.myshopify.com\",\n  \"theme_id\": \"143473541342\",\n  \"asset_key\": \"sections/footer.liquid\"\n}\n",
-					"options": {
-						"raw": {
-							"language": "json"
+				{
+					"name": "get script by id",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"shop_link\": \"quickstart-efbc825a.myshopify.com\",\n  \"access_token\": \"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\",\n  \"script_tag_id\": \"228678303966\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/get-script-tag",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"get-script-tag"
+							]
 						}
-					}
+					},
+					"response": []
 				},
-				"url": {
-					"raw": "http://127.0.0.1:5000/api/get-current-footer",
-					"protocol": "http",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"get-current-footer"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "add footer",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n  \"access_token\": \"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\",\n  \"shop_link\": \"https://quickstart-efbc825a.myshopify.com\",\n  \"theme_id\": \"143473541342\",\n  \"value\": \"<footer><p>Author: Huu Dung<br><a href='mailto:huudung2004kt@gmail.com'>huudung2004kt@gmail.com</a></p></footer><style>footer{text-align:center;padding:3px;background-color:gray;color:white;}</style>\"\n}\n",
-					"options": {
-						"raw": {
-							"language": "json"
+				{
+					"name": "get script count",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"shop_link\": \"quickstart-efbc825a.myshopify.com\",\n  \"access_token\": \"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\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/get-script-tags-count",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"get-script-tags-count"
+							]
 						}
-					}
+					},
+					"response": []
 				},
-				"url": {
-					"raw": "http://127.0.0.1:5000/api/footer",
-					"protocol": "http",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"footer"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "get all theme",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n  \"access_token\": \"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\",\n  \"shop_link\": \"https://quickstart-efbc825a.myshopify.com\"\n}\n",
-					"options": {
-						"raw": {
-							"language": "json"
+				{
+					"name": "create scrip tag",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"shop_link\": \"quickstart-efbc825a.myshopify.com\",\n  \"access_token\": \"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\",\n  \"script_tag\": {\n    \"event\": \"onload\",\n    \"src\": \"https://huudung.test/my_script.js\"\n  }\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/create-script-tag",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"create-script-tag"
+							]
 						}
-					}
+					},
+					"response": []
 				},
-				"url": {
-					"raw": "http://127.0.0.1:5000/api/get-themes",
-					"protocol": "http",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"get-themes"
-					]
+				{
+					"name": "delete scrip tag",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"shop_link\": \"quickstart-efbc825a.myshopify.com\",\n  \"access_token\": \"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\",\n  \"script_tag_id\": \"228678303966\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/delete-script-tag",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"delete-script-tag"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update scrip tag",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"shop_link\": \"quickstart-efbc825a.myshopify.com\",\n  \"access_token\": \"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\",\n  \"script_tag_id\": \"228679024862\",\n  \"script_tag_src\": \"https://somewhere-else.com/another.js\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/update-script-tag",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"update-script-tag"
+							]
+						}
+					},
+					"response": []
 				}
-			},
-			"response": []
+			]
 		}
 	]
 }
